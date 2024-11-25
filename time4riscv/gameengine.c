@@ -113,7 +113,7 @@ void game_over() // Reset the game when snake collides with itself or wall.
 	}
 }
 
-void detect_collision()
+void detect_collision() // Need Review
 {
 	// Check collision with board edges (walls)
 	if (moveX <= 0 || moveX >= BOARD_WIDTH - 1 || moveY <= 0 || moveY >= BOARD_HEIGHT - 1)
